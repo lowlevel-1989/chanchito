@@ -1,0 +1,5 @@
+[user]
+	name = Vinicio Valbuena
+	email = <formatcomvinicio@gmail.com>
+[alias]
+	logbranch = log --oneline --graph --all
