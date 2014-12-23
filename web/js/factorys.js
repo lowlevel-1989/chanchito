@@ -10,7 +10,7 @@ myapp.factory('UserService', function ($http) {
         logIn: function(username, password) {
             return $http({
                 method: 'post',
-                url: 'http://localhost:8000/api/token/', 
+                url: 'http://formatcom.alwaysdata.net/chanchito/api/token/', 
                 data: {username: username, password: password}
             });
         }
