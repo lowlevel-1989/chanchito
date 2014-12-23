@@ -1,15 +1,29 @@
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" 
-href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Chanchito">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chanchito</title>
 
-<!-- Optional theme -->
-<link rel="stylesheet" 
-href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+	<!-- Page styles -->
+	<link rel="stylesheet" href="web/css/bootstrap.min.css">
+	<link rel="stylesheet" href="web/css/bootstrap-theme.min.css">
 
-<!-- Latest compiled and minified JavaScript -->
-<script 
-src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	</head>
+	<body data-ng-app="chanchitoApp">
 
-<div class="container">
-	<img src="web/imgs/construccion.jpg" class="center-block">
-</div>
+		
+		<div data-ng-view></div>
+
+		<!-- Page scripts -->
+		<script src="web/js/angular/angular.min.js"></script>
+		<script src="web/js/angular/angular-route.min.js"></script>
+		<script src="web/js/jquery/jquery.min.js"></script>
+		<script src="web/js/chanchito.js"></script>
+		<script src="web/js/factorys.js"></script>
+		<script src="web/js/urls.js"></script>
+		<script src="web/js/bootstrap/bootstrap.min.js"></script>
+	</body>
+</html>
+
