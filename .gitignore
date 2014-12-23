@@ -1,2 +1,4 @@
+api/corsheaders
+api/rest_framework
 .gitconfig
 .bash_history
