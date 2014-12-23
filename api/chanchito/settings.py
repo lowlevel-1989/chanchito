@@ -160,3 +160,25 @@ LOGGING = {
         },
     }
 }
+
+########## CORS-HEADERS CONFIGURATION
+#Everyone can connect
+CORS_ORIGIN_ALLOW_ALL = True
+
+#Add Permitted Clients
+CORS_ORIGIN_WHITELIST = ()
+########## END CORS-HEADERS CONFIGURATION
+
+
+########## REST CONFIGURATION
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
+    ),
+    'PAGINATE_BY': 5,            # Default to 10
+    'PAGINATE_BY_PARAM': 'size', # Allow client to override, using `?size=xxx`.
+    'MAX_PAGINATE_BY': 10        # Maximum limit allowed when using `?size=xxx`.
+}
+########## END REST CONFIGURATION

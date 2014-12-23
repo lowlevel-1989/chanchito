@@ -1,4 +1,6 @@
 api/corsheaders
 api/rest_framework
+api/db.sqlite3
+*.py[cod]
 .gitconfig
 .bash_history
