@@ -1,10 +1,10 @@
 # Django settings for chanchito project.
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+     ('Vinicio Valbuena', 'formatcomvinicio@gmail.com'),
 )
 
 MANAGERS = ADMINS

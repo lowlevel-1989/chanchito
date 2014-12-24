@@ -1,0 +1,15 @@
+{
+  "name": "chanchito",
+  "version": "0.0.1",
+  "authors": [
+    "Vinicio Valbuena <formatcomvinicio@gmail.com>"
+  ],
+  "license": "FormatCom",
+  "private": true,
+  "dependencies": {
+    "jquery": "2.1.3",
+    "angular": "1.3.8",
+    "angular-route": "1.3.8",
+    "bootstrap": "3.3.1"
+  }
+}
