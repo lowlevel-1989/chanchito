@@ -6,7 +6,7 @@ paso 2: Dentro de la carpeta 'web'
 	npm   install
 	bower install
 
--- Antes de hacer cualquier commit
+-- limpiar dist
 	gulp clean
 
 -- compilar proyecto
