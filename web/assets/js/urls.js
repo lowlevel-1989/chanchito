@@ -6,21 +6,21 @@ module.exports = function(app){
     app.config(function ($routeProvider) {
         // Router
         $routeProvider.when('/working', {
-        	templateUrl: 'web/templates/working.html',
+        	templateUrl: 'web/dist/templates/working.min.html',
             access: { requiredLogin: false }
         })
         .when('/login', {
-            templateUrl: 'web/templates/login.html',
+            templateUrl: 'web/dist/templates/login.min.html',
             controller: 'AdminUserCtrl',
             access: { requiredLogin: false }
         })
         .when('/home', {
-            templateUrl: 'web/templates/home.html',
+            templateUrl: 'web/dist/templates/home.min.html',
             controller: 'ProfileCtrl',
             access: { requiredLogin: true }
         })
         .when('/logout/', {
-            templateUrl: 'web/templates/logout.html',
+            templateUrl: 'web/dist/templates/logout.min.html',
             controller: 'AdminUserCtrl',
             access: { requiredLogin: true }
         })
