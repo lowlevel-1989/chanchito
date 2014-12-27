@@ -1,15 +1,14 @@
 //Dependencias
-var gulp       = require('gulp');
-var browserify = require('gulp-browserify');
-var minifyHTML = require('gulp-minify-html');
-var minifyCSS  = require('gulp-minify-css');
-var minifyJS   = require('gulp-uglify');
-var rename     = require('gulp-rename');
-var del        = require('del');
+var gulp        = require('gulp');
+var minifyHTML  = require('gulp-minify-html');
+var minifyCSS   = require('gulp-minify-css');
+var rename      = require('gulp-rename');
+var concat      = require('gulp-concat');
+var del         = require('del');
 
 //Archivos a copiar a dist
 
-var _PROYECTOJS = 'assets/js/chanchito.js';
+var _PROYECTOJS = 'assets/js/**/*.js';
 
 var _CSS = [
   	'dependencies/bootstrap/dist/css/*'
@@ -40,16 +39,13 @@ gulp.task('minify-css', function () {
     gulp.src('assets/css/**/*.css')
     .pipe(rename({suffix: '.min'}))
     .pipe(minifyCSS())
-    .pipe(gulp.dest('dist/css'))
+    .pipe(gulp.dest('dist/assets/css'));
 });
-
 
 gulp.task('minify-js', function () {
     gulp.src(_PROYECTOJS)
-    .pipe(rename('main.min.js'))
-    .pipe(browserify())
-    .pipe(minifyJS())
-    .pipe(gulp.dest('dist/assets/js'))
+    .pipe(concat('main.js'))
+    .pipe(gulp.dest('dist/assets/js'));
 });
 
 
@@ -57,7 +53,7 @@ gulp.task('minify-html', function () {
     gulp.src('templates/**/*.html')
     .pipe(rename({suffix: '.min'}))
     .pipe(minifyHTML())
-    .pipe(gulp.dest('dist/templates'))
+    .pipe(gulp.dest('dist/templates'));
 });
 
 
@@ -92,7 +88,6 @@ gulp.task('copyFonts', function(){
 gulp.task('clean', function(cb) {
     del(['dist'], cb)
 });
-
 
 //Tarea por defecto
 gulp.task('default', ['clean'], function() {

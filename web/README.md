@@ -14,3 +14,6 @@ paso 2: Dentro de la carpeta 'web'
 
 Proyecto a Produccion ubicado en la carpeta 'dist'
 -- dist NO TOCAR
+
+-- Carpeta raiz
+	chanchito
