@@ -1,19 +1,19 @@
 Paso 1:
-	npm install --global gulp
-	npm install --global bower
+	<br>npm install --global gulp
+	<br>npm install --global bower
 
 paso 2: Dentro de la carpeta 'web'
-	npm   install
-	bower install
+	<br>npm   install
+	<br>bower install
 
 -- limpiar dist
-	gulp clean
+	<br>gulp clean
 
 -- compilar proyecto
-	gulp
+	<br>gulp
 
 Proyecto a Produccion ubicado en la carpeta 'dist'
--- dist NO TOCAR
+<br>-- dist NO TOCAR
 
 -- Carpeta raiz
-	chanchito
+	<br>chanchito
