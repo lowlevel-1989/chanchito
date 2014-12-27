@@ -2,13 +2,14 @@
 var gulp        = require('gulp');
 var minifyHTML  = require('gulp-minify-html');
 var minifyCSS   = require('gulp-minify-css');
+var minifyJS    = require('gulp-uglify');
 var rename      = require('gulp-rename');
 var concat      = require('gulp-concat');
 var del         = require('del');
 
 //Archivos a copiar a dist
 
-var _PROYECTOJS = 'assets/js/**/*.js';
+var _PROYECTOJS = 'assets/js/**/*';
 
 var _CSS = [
   	'dependencies/bootstrap/dist/css/*'
@@ -43,11 +44,14 @@ gulp.task('minify-css', function () {
 });
 
 gulp.task('minify-js', function () {
+    //Me da error con angular
+});
+
+gulp.task('main', function () {
     gulp.src(_PROYECTOJS)
     .pipe(concat('main.js'))
     .pipe(gulp.dest('dist/assets/js'));
 });
-
 
 gulp.task('minify-html', function () {
     gulp.src('templates/**/*.html')
@@ -91,7 +95,7 @@ gulp.task('clean', function(cb) {
 
 //Tarea por defecto
 gulp.task('default', ['clean'], function() {
-    gulp.start('copyBase', 'copyCss', 'copyJs', 'copyImgs', 'copyFonts', 'minify-css', 'minify-js', 'minify-html');
+    gulp.start('copyBase', 'copyCss', 'copyJs', 'copyImgs', 'copyFonts', 'minify-css', 'minify-js', 'minify-html', 'main');
 });
 
 
