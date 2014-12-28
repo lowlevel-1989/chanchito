@@ -1,1 +1,1 @@
-var myApp = angular.module('chanchitoApp', ['ngRoute']);
+var myApp = angular.module('chanchito', ['ngRoute']);

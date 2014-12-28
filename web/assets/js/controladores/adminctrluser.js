@@ -35,11 +35,11 @@ myApp.controller('AdminUserCtrl', function ($scope, $http, $rootScope, $location
     };
 });
 
-myApp.controller('ProfileCtrl', function ($scope, $http) {
+myApp.controller('ProfileCtrl', function ($scope, $http, chanchitoApi) {
     $scope.user = [];
     var request = $http({
         method: 'get',
-        url: 'http://formatcom.alwaysdata.net/chanchito/api/token/user/'
+        url: chanchitoApi.host+'token/user/'
     });
 
     request.success(

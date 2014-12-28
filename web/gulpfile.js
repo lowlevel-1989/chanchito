@@ -4,7 +4,8 @@ var minifyHTML  = require('gulp-minify-html');
 var minifyCSS   = require('gulp-minify-css');
 var minifyJS    = require('gulp-uglify');
 var rename      = require('gulp-rename');
-var concat      = require('gulp-concat');
+var concatJS    = require('gulp-concat');
+var concatCSS   = require('gulp-concat-css');
 var del         = require('del');
 
 //Archivos a copiar a dist
@@ -18,8 +19,6 @@ var _CSS = [
 
 //Solo las dependencias
 var _JAVASCRIPT = [
-	'dependencies/jquery/dist/*.min.*',
-	'dependencies/bootstrap/dist/js/*.min.*',
 	'dependencies/angular/*.min.*',
 	'dependencies/angular-route/*.min.*'
 ];
@@ -42,7 +41,7 @@ var _BASE = [
 //Tareas
 gulp.task('minify-css', function () {
     gulp.src('assets/css/**/*.css')
-    .pipe(rename({suffix: '.min'}))
+    .pipe(concatCSS('style.min.css'))
     .pipe(minifyCSS())
     .pipe(gulp.dest('dist/assets/css'));
 });
@@ -53,7 +52,7 @@ gulp.task('minify-js', function () {
 
 gulp.task('main', function () {
     gulp.src(_PROYECTOJS)
-    .pipe(concat('main.js'))
+    .pipe(concatJS('main.js'))
     .pipe(gulp.dest('dist/assets/js'));
 });
 

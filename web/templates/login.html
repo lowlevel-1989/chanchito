@@ -1,27 +1,21 @@
-<div class="jumbotron">
-	<div class="container">
-		<div class="row">
-			<strong><h2>Welcome</h2></strong> <small>CHANCHITO</small>	
-		</div>
-		<hr>
-		<div class="row">
-			<div class="col-lg-6">
-			<label>Username</label>
-			<input class="form-control" type="text" placeholder="User" data-ng-focus="focusInput()" data-ng-model="login.username"></input>			
-			</div>
-			<div class="col-lg-6">
-			<label>Password</label>
-			<input class="form-control" type="password" placeholder="Password" data-ng-focus="focusInput()" data-ng-model="login.password"></input>			
-			</div>
-		</div>
-		<hr>
-		<div class="row">
-			<div class="alert alert-danger" role="alert" data-ng-show="isDisabled" data-ng-init="isDisabled = false" data-ng-model="isDisabled">
-				<strong>{{ error.detail[0] }}</strong>
-			</div>
-		</div>
-		<div class="row">
-			<button class="btn btn-default pull-right" data-ng-click="logIn(login.username,login.password)">Sing in</button>
-		</div>
-	</div>
+<div class="container">
+	<form class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        
+        <label for="inputUser" class="sr-only">Username</label>
+        <input id="inputUser"  class="form-control" data-ng-model="username"
+               placeholder="Username" required autofocus 
+        />
+		
+		<label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" data-ng-model="password"
+               class="form-control" placeholder="Password" required 
+        />
+
+        <button class="btn btn-lg btn-primary btn-block" 
+                data-ng-click="logIn(username, password)"
+                type="submit">Sign in
+        </button>
+      
+      </form>
 </div>

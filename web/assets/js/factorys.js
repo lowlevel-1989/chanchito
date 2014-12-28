@@ -1,3 +1,9 @@
+myApp.factory('chanchitoApi', function() {
+    return {
+        host: 'http://formatcom.alwaysdata.net/chanchito/api/'
+    };
+});
+
 myApp.factory('AuthenticationService', function() {
     var auth = {
         isAuthenticated: false
@@ -5,12 +11,12 @@ myApp.factory('AuthenticationService', function() {
     return auth;
 });
 
-myApp.factory('UserService', function ($http) {
+myApp.factory('UserService', function ($http, chanchitoApi) {
     return {
         logIn: function(username, password) {
             return $http({
                 method: 'post',
-                url: 'http://formatcom.alwaysdata.net/chanchito/api/token/', 
+                url: chanchitoApi.host+'token/', 
                 data: {username: username, password: password}
             });
         }
