@@ -19,22 +19,9 @@ myApp.config(function ($routeProvider) {
         controller: 'profileController',
         access: { requiredLogin: true }
     })
-    .when('/deposito', {
-        templateUrl: 'web/dist/templates/depositos.min.html',
-        controller: 'DepositoCtrl',
-        access: { requiredLogin: true }
-    })
-    .when('/retiro', {
-        templateUrl: 'web/dist/templates/retiros.min.html',
-        access: { requiredLogin: true }
-    })
-    .when('/movements', {
-        templateUrl: 'web/dist/templates/movements.min.html',
-        access: { requiredLogin: true }
-    })
     .when('/logout/', {
-        templateUrl: 'web/dist/templates/logout.min.html',
-        controller: 'AdminUserCtrl',
+        template: '{{ logOut() }}',
+        controller: 'loginController',
         access: { requiredLogin: true }
     })
     .otherwise({
@@ -84,48 +71,7 @@ myApp.controller('loginController', function ($scope, $http, $location, $window,
     };
 });
 
-myApp.controller('MovementsCtrl', function ($scope, $http) {
-    
-});
-myApp.controller('DepositoCtrl', function ($scope, $http) {
-    $scope.insertDeposit = function(){
-        if (username !== undefined && password !== undefined) {
-            var request = $http({
-                method: 'post',
-                url: 'http://localhost:8000/api/users/', 
-                data: {username: username, email: email, password: password}
-            });
 
-            request.success(
-                function(data) {
-                    console.log("success");
-                    console.log(data);
-                }
-            );
-
-            request.error(
-                function(data) {
-                    $scope.error = data;
-                    console.log("error");
-                                    }
-            );
-        }
-        else{
-            data = {
-                detail: ["Complete the fields"]
-            };
-           
-            $scope.error = data;
-        }
-        
-    }
-});
-myApp.controller('TabsMovementsCtrl', function ($scope, $window) {
-  $scope.tabs = [
-    { title:'Depositos', content:'web/dist/templates/working.min.html' },
-    { title:'Retiros', content:'web/dist/templates/home.min.html' }
-  ];
-});
 myApp.controller('profileController', function ($scope, $http, chanchitoApi) {
     var request = $http({
         method: 'get',
@@ -139,7 +85,9 @@ myApp.controller('profileController', function ($scope, $http, chanchitoApi) {
     );
 
     request.error(
-        function(data) {}
+        function(data) {
+            //data contiene la informacion del error
+        }
     );
 
 });

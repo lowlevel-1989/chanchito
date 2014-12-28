@@ -11,7 +11,9 @@ myApp.controller('profileController', function ($scope, $http, chanchitoApi) {
     );
 
     request.error(
-        function(data) {}
+        function(data) {
+            //data contiene la informacion del error
+        }
     );
 
 });

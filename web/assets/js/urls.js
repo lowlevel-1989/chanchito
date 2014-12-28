@@ -18,22 +18,9 @@ myApp.config(function ($routeProvider) {
         controller: 'profileController',
         access: { requiredLogin: true }
     })
-    .when('/deposito', {
-        templateUrl: 'web/dist/templates/depositos.min.html',
-        controller: 'DepositoCtrl',
-        access: { requiredLogin: true }
-    })
-    .when('/retiro', {
-        templateUrl: 'web/dist/templates/retiros.min.html',
-        access: { requiredLogin: true }
-    })
-    .when('/movements', {
-        templateUrl: 'web/dist/templates/movements.min.html',
-        access: { requiredLogin: true }
-    })
     .when('/logout/', {
-        templateUrl: 'web/dist/templates/logout.min.html',
-        controller: 'AdminUserCtrl',
+        template: '{{ logOut() }}',
+        controller: 'loginController',
         access: { requiredLogin: true }
     })
     .otherwise({
