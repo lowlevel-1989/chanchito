@@ -73,6 +73,19 @@ myApp.config(function ($routeProvider) {
         controller: 'ProfileCtrl',
         access: { requiredLogin: true }
     })
+    .when('/deposito', {
+        templateUrl: 'web/dist/templates/depositos.min.html',
+        controller: 'DepositoCtrl',
+        access: { requiredLogin: true }
+    })
+    .when('/retiro', {
+        templateUrl: 'web/dist/templates/retiros.min.html',
+        access: { requiredLogin: true }
+    })
+    .when('/movements', {
+        templateUrl: 'web/dist/templates/movements.min.html',
+        access: { requiredLogin: true }
+    })
     .when('/logout/', {
         templateUrl: 'web/dist/templates/logout.min.html',
         controller: 'AdminUserCtrl',
@@ -88,7 +101,7 @@ myApp.run(function ($rootScope, $location, $window, AuthenticationService) {
     $rootScope.$on("$routeChangeStart", function (event, nextRoute, currentRoute) {
     try {
         if ($location.path() == '/' && AuthenticationService.isAuthenticated){
-            $location.path('/home/');
+            $location.path('/home');
         }
 
         if (nextRoute.access.requiredLogin && !AuthenticationService.isAuthenticated) {
@@ -160,4 +173,47 @@ myApp.controller('ProfileCtrl', function ($scope, $http) {
         }
     );
 
+});
+
+myApp.controller('MovementsCtrl', function ($scope, $http) {
+    
+});
+myApp.controller('DepositoCtrl', function ($scope, $http) {
+    $scope.insertDeposit = function(){
+        if (username !== undefined && password !== undefined) {
+            var request = $http({
+                method: 'post',
+                url: 'http://localhost:8000/api/users/', 
+                data: {username: username, email: email, password: password}
+            });
+
+            request.success(
+                function(data) {
+                    console.log("success");
+                    console.log(data);
+                }
+            );
+
+            request.error(
+                function(data) {
+                    $scope.error = data;
+                    console.log("error");
+                                    }
+            );
+        }
+        else{
+            data = {
+                detail: ["Complete the fields"]
+            };
+           
+            $scope.error = data;
+        }
+        
+    }
+});
+myApp.controller('TabsMovementsCtrl', function ($scope, $window) {
+  $scope.tabs = [
+    { title:'Depositos', content:'web/dist/templates/working.min.html' },
+    { title:'Retiros', content:'web/dist/templates/home.min.html' }
+  ];
 });
