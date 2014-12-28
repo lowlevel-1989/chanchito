@@ -32,6 +32,6 @@ def MovementUserViewSet(request):
     if request.user.is_authenticated():
         depositos = Movement.objects.filter(user=request.user, tipo=False).aggregate(Total=Sum('amount'))
         Retiros   = Movement.objects.filter(user=request.user, tipo=True).aggregate(Total=Sum('amount'))
-        json = {'depositos': depositos, 'Retiros': Retiros}
+        json = {"depositos": depositos, "retiros": Retiros}
         return Response(json)
     return Response({})
