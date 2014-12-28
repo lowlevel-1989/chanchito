@@ -1,21 +1,22 @@
 <div class="container">
 	<form class="form-signin">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        
-        <label for="inputUser" class="sr-only">Username</label>
-        <input id="inputUser"  class="form-control" data-ng-model="username"
-               placeholder="Username" required autofocus 
-        />
-		
-		<label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" data-ng-model="password"
-               class="form-control" placeholder="Password" required 
-        />
+		<h2 class="form-signin-heading">Please sign in</h2>
 
-        <button class="btn btn-lg btn-primary btn-block" 
-                data-ng-click="logIn(username, password)"
-                type="submit">Sign in
-        </button>
-      
-      </form>
+		<input id="inputUser"  class="form-control" data-ng-model="username"
+			   placeholder="Username" required autofocus 
+		/>
+
+		<input type="password" id="inputPassword" data-ng-model="password"
+		       class="form-control" placeholder="Password" required 
+		/>
+		<br />
+		<button class="btn btn-lg btn-primary btn-block" 
+		        data-ng-click="logIn(username, password)"
+		        type="submit">Sign in
+		</button>
+
+	</form>
+	<div class="alert alert-danger" role="alert" data-ng-show="error">
+		Sorry. The username and password do not match. Please try again.
+	</div>
 </div>

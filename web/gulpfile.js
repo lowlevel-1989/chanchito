@@ -30,7 +30,7 @@ var _FONTS = [
 
 //Todas las imagenes tanto tuyas como de dependencias
 var _IMGS = [
-  	'assets/imgs/*'
+  	'assets/img/*'
 ];
 
 var _BASE = [
@@ -84,7 +84,7 @@ gulp.task('copyJs', function(){
 
 gulp.task('copyImgs', function(){
 	gulp.src(_IMGS)
-    .pipe(gulp.dest('dist/assets/imgs'));
+    .pipe(gulp.dest('dist/assets/img'));
 });
 
 gulp.task('copyFonts', function(){

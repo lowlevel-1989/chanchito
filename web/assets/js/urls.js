@@ -10,12 +10,12 @@ myApp.config(function ($routeProvider) {
     })
     .when('/login', {
         templateUrl: 'web/dist/templates/login.min.html',
-        controller: 'AdminUserCtrl',
+        controller: 'loginController',
         access: { requiredLogin: false }
     })
     .when('/home', {
         templateUrl: 'web/dist/templates/home.min.html',
-        controller: 'ProfileCtrl',
+        controller: 'profileController',
         access: { requiredLogin: true }
     })
     .when('/deposito', {
@@ -45,7 +45,7 @@ myApp.run(function ($rootScope, $location, $window, AuthenticationService) {
     AuthenticationService.isAuthenticated = $window.sessionStorage.isAuthenticated;
     $rootScope.$on("$routeChangeStart", function (event, nextRoute, currentRoute) {
     try {
-        if ($location.path() == '/' && AuthenticationService.isAuthenticated){
+        if (($location.path() == '/' || $location.path() == '/login') && AuthenticationService.isAuthenticated){
             $location.path('/home');
         }
 
