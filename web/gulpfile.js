@@ -12,14 +12,14 @@ var del         = require('del');
 var _PROYECTOJS = 'assets/js/**/*';
 
 var _CSS = [
-  	'dependencies/bootstrap/dist/css/*'
+  	'dependencies/bootstrap/dist/css/*.min.*'
 ];
 
 var _JAVASCRIPT = [
-	'dependencies/jquery/dist/*',
-	'dependencies/bootstrap/dist/js/*',
-	'dependencies/angular/*',
-	'dependencies/angular-route/*'
+	'dependencies/jquery/dist/*.min.*',
+	'dependencies/bootstrap/dist/js/*.min.*',
+	'dependencies/angular/*.min.*',
+	'dependencies/angular-route/*.min.*'
 ];
 
 var _FONTS = [
