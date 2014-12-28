@@ -11,10 +11,12 @@ var del         = require('del');
 
 var _PROYECTOJS = 'assets/js/**/*';
 
+//Solo las dependencias
 var _CSS = [
   	'dependencies/bootstrap/dist/css/*.min.*'
 ];
 
+//Solo las dependencias
 var _JAVASCRIPT = [
 	'dependencies/jquery/dist/*.min.*',
 	'dependencies/bootstrap/dist/js/*.min.*',
@@ -22,10 +24,12 @@ var _JAVASCRIPT = [
 	'dependencies/angular-route/*.min.*'
 ];
 
+//Todas las fuentes tanto tuyas como de dependencias
 var _FONTS = [
   	'dependencies/bootstrap/dist/fonts/*'
 ];
 
+//Todas las imagenes tanto tuyas como de dependencias
 var _IMGS = [
   	'assets/imgs/*'
 ];
