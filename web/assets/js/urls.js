@@ -15,10 +15,9 @@ myApp.config(function ($routeProvider) {
     })
     .when('/home', {
         templateUrl: 'web/dist/templates/home.min.html',
-        controller: 'profileController',
         access: { requiredLogin: true }
     })
-    .when('/logout/', {
+    .when('/logout', {
         template: '{{ logOut() }}',
         controller: 'loginController',
         access: { requiredLogin: true }
@@ -32,7 +31,7 @@ myApp.run(function ($rootScope, $location, $window, AuthenticationService) {
     AuthenticationService.isAuthenticated = $window.sessionStorage.isAuthenticated;
     $rootScope.$on("$routeChangeStart", function (event, nextRoute, currentRoute) {
     try {
-        if (($location.path() == '/' || $location.path() == '/login') && AuthenticationService.isAuthenticated){
+        if (($location.path() === '/' || $location.path() === '/login') && AuthenticationService.isAuthenticated){
             $location.path('/home');
         }
 

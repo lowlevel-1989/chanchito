@@ -16,10 +16,9 @@ myApp.config(function ($routeProvider) {
     })
     .when('/home', {
         templateUrl: 'web/dist/templates/home.min.html',
-        controller: 'profileController',
         access: { requiredLogin: true }
     })
-    .when('/logout/', {
+    .when('/logout', {
         template: '{{ logOut() }}',
         controller: 'loginController',
         access: { requiredLogin: true }
@@ -33,7 +32,7 @@ myApp.run(function ($rootScope, $location, $window, AuthenticationService) {
     AuthenticationService.isAuthenticated = $window.sessionStorage.isAuthenticated;
     $rootScope.$on("$routeChangeStart", function (event, nextRoute, currentRoute) {
     try {
-        if (($location.path() == '/' || $location.path() == '/login') && AuthenticationService.isAuthenticated){
+        if (($location.path() === '/' || $location.path() === '/login') && AuthenticationService.isAuthenticated){
             $location.path('/home');
         }
 
@@ -71,7 +70,8 @@ myApp.controller('loginController', function ($scope, $http, $location, $window,
     };
 });
 
-
+myApp.controller('movementsController', function ($scope, $http, chanchitoApi) {
+});
 myApp.controller('profileController', function ($scope, $http, chanchitoApi) {
     var request = $http({
         method: 'get',
@@ -90,6 +90,36 @@ myApp.controller('profileController', function ($scope, $http, chanchitoApi) {
         }
     );
 
+});
+myApp.controller('tagsController', function ($scope) {
+	$scope.tabs = [
+		{
+			"title": "Home",
+			"url"  : ""
+		},
+		{
+			"title": "Withdraw",
+			"url"  : "web/dist/templates/withdraw.min.html"
+		},
+		{
+			"title": "Deposit",
+			"url"  : "web/dist/templates/deposit.min.html"
+		},
+		{
+			"title": "Movements",
+			"url"  : "web/dist/templates/movements.min.html"
+		}
+	];
+
+	$scope.currentTab = '';
+
+    $scope.onClickTab = function (tab) {
+        $scope.currentTab = tab.url;
+    }
+    
+    $scope.isActiveTab = function(tabUrl) {
+        return tabUrl == $scope.currentTab;
+    }
 });
 myApp.factory('chanchitoApi', function() {
     return {
