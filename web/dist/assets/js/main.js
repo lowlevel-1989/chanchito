@@ -71,6 +71,28 @@ myApp.controller('loginController', function ($scope, $http, $location, $window,
 });
 
 myApp.controller('movementsController', function ($scope, $http, chanchitoApi) {
+	$scope.deposit = function (amount, description){
+		var request = $http({
+		    method: 'post',
+		    url: chanchitoApi.host+'movements/',
+		    data: {amount: amount , description: description}
+		});
+
+		request.success(
+		    function(data) {
+		    	$scope.success = true;
+		        console.log("success");
+		        console.log(data);
+		    }
+		);
+
+		request.error(
+		    function(data) {
+		        $scope.error = data;
+		        console.log("error");
+		    }
+		);
+    };
 });
 myApp.controller('profileController', function ($scope, $http, chanchitoApi) {
     var request = $http({
@@ -91,7 +113,7 @@ myApp.controller('profileController', function ($scope, $http, chanchitoApi) {
     );
 
 });
-myApp.controller('tagsController', function ($scope) {
+myApp.controller('tabsController', function ($scope) {
 	$scope.tabs = [
 		{
 			"title": "Home",

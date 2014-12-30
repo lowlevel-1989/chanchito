@@ -3,7 +3,7 @@
 		Welcome <strong>{{user.username}}</strong>
 	</h3>
 	<a class="btn btn-danger pull-right" href="#/logout">Log out</a>
-	<div data-ng-controller="tagsController">
+	<div data-ng-controller="tabsController">
 		<ul class="nav nav-tabs">
 			<li data-ng-repeat="tab in tabs"
 				data-ng-class="{active:isActiveTab(tab.url)}" >
@@ -13,6 +13,6 @@
             </li>
 		</ul>
 
-		<div data-ng-include="currentTab"></div>
+		<div data-ng-include src="currentTab"></div>
 	</div>
 </div>
