@@ -99,8 +99,8 @@ gulp.task('clean', function(cb) {
 gulp.task('watch', function() {
     // Cambios principales
     gulp.watch(_PROYECTOJS, ['main']);
-    gulp.watch(['app/assets/css/**/*.css'], ['minify-css']);
-    gulp.watch(['app/templates/**/*.html'], ['minify-html']);
+    gulp.watch(['assets/css/**/*.css'], ['minify-css']);
+    gulp.watch(['templates/**/*.html'], ['minify-html']);
 
     gulp.watch(_BASE,  ['copyBase']);
     gulp.watch(_IMGS,  ['copyImgs']);
