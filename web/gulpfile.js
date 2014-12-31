@@ -96,9 +96,20 @@ gulp.task('clean', function(cb) {
     del(['dist'], cb)
 });
 
+gulp.task('watch', function() {
+    // Cambios principales
+    gulp.watch(_PROYECTOJS, ['main']);
+    gulp.watch(['app/assets/css/**/*.css'], ['minify-css']);
+    gulp.watch(['app/templates/**/*.html'], ['minify-html']);
+
+    gulp.watch(_BASE,  ['copyBase']);
+    gulp.watch(_IMGS,  ['copyImgs']);
+    gulp.watch(_FONTS, ['copyFonts']);
+});
+
 //Tarea por defecto
 gulp.task('default', ['clean'], function() {
-    gulp.start('copyBase', 'copyCss', 'copyJs', 'copyImgs', 'copyFonts', 'minify-css', 'minify-js', 'minify-html', 'main');
+    gulp.start('copyBase', 'copyCss', 'copyJs', 'copyImgs', 'copyFonts', 'minify-css', 'minify-js', 'minify-html', 'main', 'watch');
 });
 
 

@@ -9,8 +9,11 @@ paso 2: Dentro de la carpeta 'web'
 -- limpiar dist
 	<br>gulp clean
 
--- compilar proyecto
+-- compila el proyecto y se mantiene a escucha
 	<br>gulp
+
+-- liveReload : Requiere instalacion
+	<br>guard
 
 Proyecto a Produccion ubicado en la carpeta 'dist'
 <br>-- dist NO TOCAR

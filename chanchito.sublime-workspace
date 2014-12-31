@@ -1,0 +1,629 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"error"
+			],
+			[
+				"s",
+				"scope"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"_",
+				"_JAVASCRIPT"
+			],
+			[
+				"d",
+				"Dropbox/"
+			],
+			[
+				"fil",
+				"filtrar"
+			],
+			[
+				"ge",
+				"getElementsByTagName"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"recip",
+				"recipes"
+			],
+			[
+				"se",
+				"settings"
+			],
+			[
+				"re",
+				"reader"
+			],
+			[
+				"file",
+				"fileFoodGroup"
+			],
+			[
+				"data",
+				"Database"
+			],
+			[
+				"m",
+				"mouse.min.js"
+			],
+			[
+				"b",
+				"blocktrans	blocktrans"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"u",
+				"urls"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"ob",
+				"obj"
+			],
+			[
+				"for",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"fo",
+				"form	Tag"
+			],
+			[
+				"an",
+				"angular-route.min.js"
+			],
+			[
+				"angu",
+				"angular-chanchito/"
+			],
+			[
+				"f",
+				"f	Anonymous Function"
+			],
+			[
+				"Ac",
+				"ActivoSerializer"
+			],
+			[
+				"A",
+				"Activo"
+			],
+			[
+				"us",
+				"usuarios"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 306.0,
+		"selected_items":
+		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Channel"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"snippet",
+				"Snippet: Function"
+			],
+			[
+				"pace",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler( ))); open( os.path.join( ipp, pf), 'wb' ).write( urllib2.urlopen( 'http://sublime.wbond.net/' +pf.replace( ' ','%20' )).read()); print( 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/opt/lampp/htdocs/chanchito",
+		"/opt/lampp/htdocs/chanchito/api",
+		"/opt/lampp/htdocs/chanchito/web"
+	],
+	"file_history":
+	[
+		"/opt/lampp/htdocs/chanchito/web/README.md",
+		"/opt/lampp/htdocs/chanchito/README.md",
+		"/opt/lampp/htdocs/chanchito/.htaccess",
+		"/opt/lampp/htdocs/chanchito/web/index.html",
+		"/home/vinicio/Dropbox/Linux/comandos guard-livereload",
+		"/opt/lampp/htdocs/chanchito/web/Guardfile",
+		"/opt/lampp/htdocs/chanchito/web/gulpfile.js",
+		"/home/vinicio/Dropbox/Trabajando/nutrislots-web/gulpfile.js",
+		"/home/vinicio/Dropbox/Linux/instalar ruby desde repositorio",
+		"/opt/lampp/htdocs/chanchito/api/movements/models.py",
+		"/opt/lampp/htdocs/chanchito/web/package.json",
+		"/home/vinicio/.config/sublime-text-3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/home/vinicio/Dropbox/Trabajando/nutrislots-web/package.json",
+		"/home/vinicio/Dropbox/Linux/comandos git.txt",
+		"/home/vinicio/Dropbox/Linux/comandos stylus",
+		"/opt/lampp/htdocs/chanchito/web/assets/js/urls.js",
+		"/opt/lampp/htdocs/chanchito/web/assets/js/chanchito.js",
+		"/opt/lampp/htdocs/chanchito/web/templates/home.html",
+		"/opt/lampp/htdocs/chanchito/web/assets/js/controllers/tagsController.js",
+		"/home/vinicio/Dropbox/Trabajando/nutrislots-web/.bowerrc",
+		"/home/vinicio/Dropbox/Trabajando/nutrislots-web/bower.json",
+		"/home/vinicio/Desktop/drawing.svg",
+		"/home/vinicio/Dropbox/Linux/camara",
+		"/home/vinicio/Dropbox/Linux/comandos tmux",
+		"/home/vinicio/Dropbox/Linux/comandos ver arbol de carpetas terminal",
+		"/opt/lampp/htdocs/chanchito/web/eliminame",
+		"/opt/lampp/htdocs/chanchito/web/templates/movements.html",
+		"/home/vinicio/.config/sublime-text-2/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/home/vinicio/.config/sublime-text-2/Packages/HTML/HTML.tmLanguage",
+		"/home/vinicio/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/vinicio/.config/sublime-text-2/Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+		"/home/vinicio/.config/sublime-text-2/Packages/Color Highlighter/colors.py",
+		"/home/vinicio/.config/sublime-text-2/Packages/Color Highlighter/ColorHighlighter.py",
+		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/html/context_variable.sublime-snippet",
+		"/home/vinicio/.config/sublime-text-2/Packages/Color Highlighter/Main.sublime-menu",
+		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/Python (Django).sublime-completions",
+		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/html/autoescape.sublime-snippet",
+		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/html/comment.sublime-snippet",
+		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/html/blocktrans.sublime-snippet",
+		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/html/block.sublime-snippet",
+		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/html/super.sublime-snippet",
+		"/home/vinicio/.config/sublime-text-2/Packages/HTML/html.sublime-snippet",
+		"/home/vinicio/.config/sublime-text-2/Packages/HTML/HTML.sublime-completions",
+		"/home/vinicio/.config/sublime-text-2/Packages/HTML/html_completions.py",
+		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/html/templatetag.sublime-snippet",
+		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/Views/TemplateView.sublime-snippet",
+		"/home/vinicio/.config/sublime-text-2/Packages/Laravel Blade Highlighter/test.blade",
+		"/home/vinicio/.config/sublime-text-2/Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage.cache",
+		"/home/vinicio/.config/sublime-text-2/Packages/Laravel Blade Highlighter/package-metadata.json",
+		"/home/vinicio/.config/sublime-text-2/Settings/Session.sublime_session",
+		"/opt/lampp/htdocs/chanchito/web/dfsdfs",
+		"/home/vinicio/.config/sublime-text-2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/home/vinicio/.config/sublime-text-2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/home/vinicio/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/home/vinicio/.config/sublime-text-2/Packages/SideBarEnhancements/Default (Linux).sublime-keymap",
+		"/home/vinicio/.config/sublime-text-2/Packages/User/Side Bar.sublime-settings",
+		"/home/vinicio/Dropbox/Linux/dar permisos a carpeta htdocs de lampp",
+		"/opt/lampp/htdocs/chanchito/pruebe.fsd",
+		"/home/vinicio/Dropbox/Linux/Sublime text 2 recursos.txt",
+		"/home/vinicio/Desktop/chanchito/README.md",
+		"/home/vinicio/.config/sublime-text-2/Packages/Laravel Blade Highlighter/packages.json",
+		"/home/vinicio/.config/sublime-text-2/Packages/Laravel Blade Highlighter/messages.json",
+		"/home/vinicio/Dropbox/Trabajando/formatcom/app/views/login.blade.php",
+		"/opt/lampp/htdocs/chanchito/web/templates/login.html",
+		"/home/vinicio/.config/sublime-text-2/Packages/AngularJS/AngularJS-js-completions.sublime-settings",
+		"/home/vinicio/.config/sublime-text-2/Packages/AngularJS/AngularJS-completions.sublime-settings",
+		"/home/vinicio/.config/sublime-text-2/Packages/AngularJS/AngularJS-sublime-package.sublime-settings",
+		"/home/vinicio/Dropbox/Trabajando/nutrislots-web/app/templates/working.html",
+		"/home/vinicio/Dropbox/Trabajando/nutrislots-web/app/index.html",
+		"/home/vinicio/Dropbox/Trabajando/nutrislots-web/app/templates/contact.html",
+		"/home/vinicio/Dropbox/Linux/comandos ssh",
+		"/opt/lampp/htdocs/chanchito/web/templates/deposit.html",
+		"/opt/lampp/htdocs/chanchito/web/templates/withdraw.html",
+		"/opt/lampp/htdocs/chanchito/web/assets/js/controllers/movementsController.js",
+		"/opt/lampp/htdocs/chanchito/web/assets/js/controllers/movementController.js",
+		"/opt/lampp/htdocs/chanchito/web/assets/css/login.css",
+		"/opt/lampp/htdocs/chanchito/web/assets/js/controllers/profileController.js",
+		"/opt/lampp/htdocs/chanchito/web/assets/js/controllers/loginController.js",
+		"/opt/lampp/htdocs/chanchito/.gitignore",
+		"/opt/lampp/htdocs/chanchito/web/assets/js/factorys/loginFactory.js",
+		"/opt/lampp/htdocs/chanchito/web/templates/working.html",
+		"/opt/lampp/htdocs/chanchito/web/assets/js/factorys/apiFactory.js",
+		"/opt/lampp/htdocs/chanchito/web/assets/js/controladores/adminctrluser.js",
+		"/home/vinicio/Dropbox/Linux/comandos curl.txt",
+		"/opt/lampp/htdocs/chanchito/web/bower.json",
+		"/opt/lampp/htdocs/chanchito/web/dependencies/angular-bootstrap/ui-bootstrap-tpls.js",
+		"/opt/lampp/htdocs/chanchito/web/assets/js/factorys.js",
+		"/opt/lampp/htdocs/chanchito/web/dist/index.html",
+		"/opt/lampp/htdocs/chanchito/api/api/views.py",
+		"/opt/lampp/htdocs/chanchito/api/api/urls.py",
+		"/opt/lampp/htdocs/chanchito/web/dist/assets/js/main.min.js",
+		"/opt/lampp/htdocs/chanchito/web/min/chanchito.js",
+		"/opt/lampp/htdocs/chanchito/web/dist/assets/js/main.js",
+		"/opt/lampp/htdocs/chanchito/api/requirements/base.txt",
+		"/opt/lampp/etc/extra/httpd-vhosts.conf",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/package.json",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/gulpfile.js",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/README.md",
+		"/opt/lampp/htdocs/chanchito/web/dist/main.min.js",
+		"/opt/lampp/htdocs/chanchito/web/dist/todo.js",
+		"/opt/lampp/htdocs/chanchito/web/dist/assets/js/chanchito.js",
+		"/opt/lampp/htdocs/chanchito/web/prueba.js",
+		"/home/vinicio/Dropbox/Linux/comando servidor web de pruebas",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/index.html",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/index.html",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/.htaccess",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/bower.json",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/assets/js/main.min.js",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/templates/login.min.html",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/templates/working.html",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/assets/js/urls.js",
+		"/home/vinicio/Desktop/Mejorandola/Curso de diseño gráfico de interfaces y UX/10 - Introducción a Illustrator/56 - leer/Cursos online de Mejorando.la.html",
+		"/home/vinicio/Dropbox/Linux/instalar wifi",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/templates/home.html",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/templates/login.html",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/js/main.js",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/assets/js/main.js",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/js/main.js",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/js/chanchito.js",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/assets/js/chanchito.js",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/assets/js/README.md",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/js/urls.js",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/main.min.js",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/chanchito.js",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/main.js",
+		"/home/vinicio/Dropbox/Trabajando/chanchito/web/templates/home.html",
+		"/home/vinicio/Dropbox/Trabajando/viejitaangular/js/factorys.js",
+		"/home/vinicio/Dropbox/Trabajando/viejitaangular/js/controlador.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/opt/lampp/htdocs/chanchito",
+			".",
+			"./index.html",
+			"./web",
+			".",
+			"/opt/lampp/chanchito/",
+			"web"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"curly",
+			"comment",
+			"source.php",
+			"text.html.basic",
+			"{",
+			"djane",
+			"chan",
+			"\n",
+			"chan",
+			"Canchi",
+			"Chanchito",
+			"chanchito",
+			"home",
+			"location",
+			"rootScope",
+			"movements",
+			"chanchitoApp",
+			"reload",
+			"browserSync",
+			"serve",
+			"app",
+			".factory('AuthenticationService', function() {\n",
+			"app",
+			"brows",
+			"css",
+			"browserify",
+			"thisjugador",
+			"js",
+			"dependencies",
+			"jquery",
+			"browserify",
+			"routerUrls",
+			"simpleRouter",
+			"postgres",
+			"RecipeIngredientViewSet",
+			"RecipeStepViewSet",
+			"RecipeTagSerializer",
+			"RecipeStepSerializer",
+			"RecipeTagViewSet",
+			"RecipeTagSerializer",
+			"RecipeTag",
+			"RecipeIngredientViewSet",
+			"RecipeIngredientSerializer",
+			"FoodHyperSerializer",
+			"RecipeSerializer",
+			"food",
+			"Recipe",
+			"RecipeSerializer",
+			"RecipeIngredient",
+			"text",
+			"parametro",
+			"filtro",
+			"Mi",
+			"filtrofiltrars",
+			"filtrar",
+			"restados",
+			"}\n",
+			"restados",
+			"resultados",
+			"filtros",
+			"NOMBRES_Y_APELLIDOS",
+			"OFICINA",
+			"Produccion",
+			"PRODUCCION",
+			"Puntas",
+			"PUNTAS",
+			"Puntas",
+			"PUNTAS",
+			"NOMBRES_Y_APELLIDOS",
+			"NOMBRE",
+			"Row",
+			"factor",
+			"setting",
+			"chanchito",
+			"chanchito_dev",
+			"_de",
+			"BASE_DIR",
+			"DJANGO_ROOT",
+			"path",
+			"vagrant",
+			"django",
+			"elemelentos",
+			"Ditem",
+			"items",
+			"Ditem",
+			" listPreguntas",
+			"class",
+			"items",
+			"JsonCrtl",
+			"title",
+			">\n",
+			"data-",
+			"SourceCode",
+			"food",
+			"description",
+			"text",
+			"image_url",
+			"serving_size",
+			"cook_dependency",
+			"foods",
+			"FoodViewSet",
+			"RecipeStepViewSet",
+			"FoodViewSet",
+			"RecipeViewSet",
+			"FoodViewSet",
+			"e",
+			"RecipeTagViewSet",
+			"FoodViewSet",
+			"RecipeIngredientViewSet",
+			"FoodViewSet",
+			"CookbookViewSet",
+			"RecipeTag",
+			"RecipeTagSerializer",
+			"RecipeSerializer",
+			"RecipeViewSet",
+			"RecipeSerializer",
+			"RecipeStep",
+			"Recipe",
+			")\n",
+			"fa",
+			"Tag",
+			"food",
+			"n",
+			"nutrient",
+			"fileDataDerivationCode",
+			"fileNutrient",
+			"fileDataDerivationCode",
+			"fileNutrient"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"False",
+			"True",
+			"templates"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 402.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "chanchito.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/opt/lampp/htdocs/chanchito/chanchito.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
