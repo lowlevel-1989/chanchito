@@ -177,7 +177,7 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.TokenAuthentication',
     ),
-    'PAGINATE_BY': 5,            # Default to 10
+    'PAGINATE_BY': 6,            # Default to 10
     'PAGINATE_BY_PARAM': 'size', # Allow client to override, using `?size=xxx`.
     'MAX_PAGINATE_BY': 10        # Maximum limit allowed when using `?size=xxx`.
 }
