@@ -1,12 +1,13 @@
 //Dependencias
+var concatCSS   = require('gulp-concat-css');
+var concatJS    = require('gulp-concat');
+var del         = require('del');
 var gulp        = require('gulp');
-var minifyHTML  = require('gulp-minify-html');
 var minifyCSS   = require('gulp-minify-css');
+var minifyHTML  = require('gulp-minify-html');
 var minifyJS    = require('gulp-uglify');
 var rename      = require('gulp-rename');
-var concatJS    = require('gulp-concat');
-var concatCSS   = require('gulp-concat-css');
-var del         = require('del');
+var stylus      = require('gulp-stylus');
 
 //Archivos a copiar a dist
 
@@ -40,19 +41,17 @@ var _BASE = [
 
 //Tareas
 gulp.task('minify-css', function () {
-    gulp.src('assets/css/**/*.css')
+    gulp.src('assets/stylus/**/*.styl')
+    .pipe(stylus())
     .pipe(concatCSS('style.min.css'))
     .pipe(minifyCSS())
     .pipe(gulp.dest('dist/assets/css'));
 });
 
 gulp.task('minify-js', function () {
-    //Me da error con angular
-});
-
-gulp.task('main', function () {
     gulp.src(_PROYECTOJS)
-    .pipe(concatJS('main.js'))
+    .pipe(minifyJS())
+    .pipe(concatJS('main.min.js'))
     .pipe(gulp.dest('dist/assets/js'));
 });
 
@@ -98,8 +97,8 @@ gulp.task('clean', function(cb) {
 
 gulp.task('watch', function() {
     // Cambios principales
-    gulp.watch(_PROYECTOJS, ['main']);
-    gulp.watch(['assets/css/**/*.css'], ['minify-css']);
+    gulp.watch(_PROYECTOJS, ['minify-js']);
+    gulp.watch(['assets/stylus/**/*.styl'], ['minify-css']);
     gulp.watch(['templates/**/*.html'], ['minify-html']);
 
     gulp.watch(_BASE,  ['copyBase']);
@@ -109,7 +108,7 @@ gulp.task('watch', function() {
 
 //Tarea por defecto
 gulp.task('default', ['clean'], function() {
-    gulp.start('copyBase', 'copyCss', 'copyJs', 'copyImgs', 'copyFonts', 'minify-css', 'minify-js', 'minify-html', 'main', 'watch');
+    gulp.start('copyBase', 'copyCss', 'copyJs', 'copyImgs', 'copyFonts', 'minify-css', 'minify-html', 'minify-js', 'watch');
 });
 
 

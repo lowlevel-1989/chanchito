@@ -1,24 +1,41 @@
-myApp.controller('movementsController', function ($scope, $http, chanchitoApi) {
-	$scope.deposit = function (amount, description){
-		var request = $http({
-		    method: 'post',
-		    url: chanchitoApi.host+'movements/',
-		    data: {amount: amount , description: description}
-		});
+(function(){
 
-		request.success(
-		    function(data) {
-		    	$scope.success = true;
-		        console.log("success");
-		        console.log(data);
-		    }
-		);
+    var movements = angular.module('chanchito.movementsController', []);
 
-		request.error(
-		    function(data) {
-		        $scope.error = data;
-		        console.log("error");
-		    }
-		);
-    };
-});
+    movements.controller('movementsController', ['$http', 'chanchitoApi',
+    function ($http, chanchitoApi) {
+		self = this;
+
+		this.serializerDeposit = {};
+
+		this.successDeposit = false;
+
+		this.changeDeposit = function (){
+			if (this.successDeposit)
+				this.successDeposit = false;
+		}
+
+		this.deposit = function (){
+			var request = $http({
+			    method: 'post',
+			    url: chanchitoApi.host+'movements/',
+			    data: this.serializerDeposit
+			});
+
+			request.success(
+			    function(data) {
+			    	self.successDeposit = true;
+					self.serializerDeposit = {};
+					console.log(data);
+			    }
+			);
+
+			request.error(
+			    function(data) {
+					console.log(data);
+			    }
+			);
+	    };
+	}]);
+
+})();
