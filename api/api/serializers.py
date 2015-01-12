@@ -21,4 +21,5 @@ class MovementSerializer(serializers.ModelSerializer):
     
     class Meta:
 		model  = Movement
-		fields = ('id', 'date', 'amount', 'description', 'user', 'active',)
+		fields = ('id', 'date', 'amount', 'description', 'user', 'active', 'tipe')
+		write_only_fields = ('tipe',)

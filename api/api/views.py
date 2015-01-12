@@ -30,8 +30,8 @@ def TokenUserViewSet(request):
 @api_view(['GET'])
 def MovementUserViewSet(request):
     if request.user.is_authenticated():
-        depositos = Movement.objects.filter(user=request.user, tipo=False).aggregate(Total=Sum('amount'))
-        Retiros   = Movement.objects.filter(user=request.user, tipo=True).aggregate(Total=Sum('amount'))
+        depositos = Movement.objects.filter(user=request.user, tipe=False).aggregate(Total=Sum('amount'))
+        Retiros   = Movement.objects.filter(user=request.user, tipe=True).aggregate(Total=Sum('amount'))
         json = {"depositos": depositos, "retiros": Retiros}
         return Response(json)
     return Response({})

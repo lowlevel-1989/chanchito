@@ -50,8 +50,8 @@ gulp.task('minify-css', function () {
 
 gulp.task('minify-js', function () {
     gulp.src(_PROYECTOJS)
-    .pipe(minifyJS())
     .pipe(concatJS('main.min.js'))
+    .pipe(minifyJS())
     .pipe(gulp.dest('dist/assets/js'));
 });
 

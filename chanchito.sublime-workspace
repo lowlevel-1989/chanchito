@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"se",
+				"self"
+			],
+			[
+				"mo",
+				"movements"
+			],
+			[
+				"lo",
+				"logIn"
+			],
+			[
 				"e",
 				"error"
 			],
@@ -38,10 +50,6 @@
 			[
 				"recip",
 				"recipes"
-			],
-			[
-				"se",
-				"settings"
 			],
 			[
 				"re",
@@ -131,6 +139,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "web/assets/js/chanchito.js",
+			"settings":
+			{
+				"buffer_size": 1046,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/assets/js/controllers/movementsController.js",
+			"settings":
+			{
+				"buffer_size": 802,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -229,12 +253,47 @@
 	},
 	"expanded_folders":
 	[
-		"/opt/lampp/htdocs/chanchito",
-		"/opt/lampp/htdocs/chanchito/api",
-		"/opt/lampp/htdocs/chanchito/web"
+		"/home/vinicio/Documents/Proyectos/chanchito",
+		"/home/vinicio/Documents/Proyectos/chanchito/web",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/controllers",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/dist",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/dist/assets",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/dist/assets/js",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/templates"
 	],
 	"file_history":
 	[
+		"/home/vinicio/Documents/Proyectos/chanchito/web/gulpfile.js",
+		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-web/dist/app.js",
+		"/home/vinicio/Dropbox/Linux/dar permisos a carpeta htdocs de lampp",
+		"/home/vinicio/Dropbox/Linux/comandos ssh",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/templates/deposit.html",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/urls.js",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/controllers/movementsController.js",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/templates/home.html",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/controllers/tabsController.js",
+		"/home/vinicio/Dropbox/Linux/comandos descargar videos de internet",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/controllers/profileController.js",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/controllers/loginController.js",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/templates/login.html",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/factorys/loginFactory.js",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/factorys/apiFactory.js",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/css/login.css",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/stylus/login.styl",
+		"/home/vinicio/Documents/Proyectos/inputTag/gulpfile.js",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/package.json",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/index.html",
+		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1567090.smil",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/controllers/tagsController.js",
+		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1565214.smil",
+		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1565227.smil",
+		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1562329.smil",
+		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1562322.smil",
+		"/home/vinicio/Documents/Mejorandola/Curso Profesional de Backend/01 - Introducción a Python y Django/01 - youtube/Qué significa ser un Backend",
+		"/home/vinicio/Dropbox/Linux/instalar wifi",
+		"/home/vinicio/Dropbox/Linux/comandos git.txt",
+		"/home/vinicio/Dropbox/Linux/comandos leer archivo desde terminal",
+		"/home/vinicio/Dropbox/Linux/instalar blender",
 		"/opt/lampp/htdocs/chanchito/web/README.md",
 		"/opt/lampp/htdocs/chanchito/README.md",
 		"/opt/lampp/htdocs/chanchito/.htaccess",
@@ -248,7 +307,6 @@
 		"/opt/lampp/htdocs/chanchito/web/package.json",
 		"/home/vinicio/.config/sublime-text-3/Packages/LiveReload/LiveReload.sublime-settings",
 		"/home/vinicio/Dropbox/Trabajando/nutrislots-web/package.json",
-		"/home/vinicio/Dropbox/Linux/comandos git.txt",
 		"/home/vinicio/Dropbox/Linux/comandos stylus",
 		"/opt/lampp/htdocs/chanchito/web/assets/js/urls.js",
 		"/opt/lampp/htdocs/chanchito/web/assets/js/chanchito.js",
@@ -291,7 +349,6 @@
 		"/home/vinicio/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
 		"/home/vinicio/.config/sublime-text-2/Packages/SideBarEnhancements/Default (Linux).sublime-keymap",
 		"/home/vinicio/.config/sublime-text-2/Packages/User/Side Bar.sublime-settings",
-		"/home/vinicio/Dropbox/Linux/dar permisos a carpeta htdocs de lampp",
 		"/opt/lampp/htdocs/chanchito/pruebe.fsd",
 		"/home/vinicio/Dropbox/Linux/Sublime text 2 recursos.txt",
 		"/home/vinicio/Desktop/chanchito/README.md",
@@ -305,7 +362,6 @@
 		"/home/vinicio/Dropbox/Trabajando/nutrislots-web/app/templates/working.html",
 		"/home/vinicio/Dropbox/Trabajando/nutrislots-web/app/index.html",
 		"/home/vinicio/Dropbox/Trabajando/nutrislots-web/app/templates/contact.html",
-		"/home/vinicio/Dropbox/Linux/comandos ssh",
 		"/opt/lampp/htdocs/chanchito/web/templates/deposit.html",
 		"/opt/lampp/htdocs/chanchito/web/templates/withdraw.html",
 		"/opt/lampp/htdocs/chanchito/web/assets/js/controllers/movementsController.js",
@@ -334,43 +390,15 @@
 		"/home/vinicio/Dropbox/Trabajando/chanchito/web/gulpfile.js",
 		"/home/vinicio/Dropbox/Trabajando/chanchito/web/README.md",
 		"/opt/lampp/htdocs/chanchito/web/dist/main.min.js",
-		"/opt/lampp/htdocs/chanchito/web/dist/todo.js",
-		"/opt/lampp/htdocs/chanchito/web/dist/assets/js/chanchito.js",
-		"/opt/lampp/htdocs/chanchito/web/prueba.js",
-		"/home/vinicio/Dropbox/Linux/comando servidor web de pruebas",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/index.html",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/index.html",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/.htaccess",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/bower.json",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/assets/js/main.min.js",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/templates/login.min.html",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/templates/working.html",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/assets/js/urls.js",
-		"/home/vinicio/Desktop/Mejorandola/Curso de diseño gráfico de interfaces y UX/10 - Introducción a Illustrator/56 - leer/Cursos online de Mejorando.la.html",
-		"/home/vinicio/Dropbox/Linux/instalar wifi",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/templates/home.html",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/templates/login.html",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/js/main.js",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/assets/js/main.js",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/js/main.js",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/js/chanchito.js",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/assets/js/chanchito.js",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/assets/js/README.md",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/js/urls.js",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/main.min.js",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/dist/chanchito.js",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/main.js",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/templates/home.html",
-		"/home/vinicio/Dropbox/Trabajando/viejitaangular/js/factorys.js",
-		"/home/vinicio/Dropbox/Trabajando/viejitaangular/js/controlador.js"
+		"/opt/lampp/htdocs/chanchito/web/dist/todo.js"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			"/opt/lampp/htdocs/chanchito",
@@ -387,6 +415,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"success",
+			"successDeposit",
+			"this",
+			"depositCtrl",
+			"tabsCtrl",
+			"profile",
+			"myApp",
+			"logIn",
+			"myApp",
+			"logIn",
+			"stylus",
 			"curly",
 			"comment",
 			"source.php",
@@ -503,18 +542,7 @@
 			"RecipeSerializer",
 			"RecipeViewSet",
 			"RecipeSerializer",
-			"RecipeStep",
-			"Recipe",
-			")\n",
-			"fa",
-			"Tag",
-			"food",
-			"n",
-			"nutrient",
-			"fileDataDerivationCode",
-			"fileNutrient",
-			"fileDataDerivationCode",
-			"fileNutrient"
+			"RecipeStep"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -535,8 +563,187 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "web/assets/js/chanchito.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								257,
+								257
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "web/assets/js/controllers/movementsController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 802,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -621,7 +828,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 211.0,
+	"side_bar_width": 280.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

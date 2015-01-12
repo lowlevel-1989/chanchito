@@ -8,10 +8,10 @@ class Active(models.Model):
 
 class Movement(models.Model):
 	user        = models.ForeignKey(User)
-	amount      = models.CharField(max_length=300)
+	amount      = models.FloatField()
 	date        = models.DateField(auto_now=True)
 	description = models.TextField()
-	tipo        = models.BooleanField(default=False)
+	tipe        = models.BooleanField(default=False)
 	active      = models.ForeignKey(Active)
 
 	def save(self, *args, **kwargs):
