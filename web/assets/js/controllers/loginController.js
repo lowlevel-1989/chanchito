@@ -12,7 +12,9 @@
                     $window.sessionStorage.isAuthenticated = true;
                     $window.sessionStorage.token           = data.token;
                     $location.path('/home');
+                    console.log(data);
                 }).error(function(status, data) {
+                    console.log(data);
                     this.error = true;
                 });
             }

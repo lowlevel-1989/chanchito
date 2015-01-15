@@ -4,7 +4,7 @@
 
 	api.factory('chanchitoApi', function() {
 		return {
-			host: 'http://http://formatcom.alwaysdata.net/chanchito/api/'
+			host: 'http://formatcom.alwaysdata.net/chanchito/api/'
 		};
 	});
 
