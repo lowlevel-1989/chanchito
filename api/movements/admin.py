@@ -1,5 +1,7 @@
 from django.contrib import admin
-from movements.models import Active, Movement
+from movements.models import Movement
 
-admin.site.register(Active)
-admin.site.register(Movement)
+class MovementAdmin(admin.ModelAdmin):
+    exclude = ('active',)
+
+admin.site.register(Movement, MovementAdmin)
