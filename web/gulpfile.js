@@ -18,6 +18,11 @@ var _CSS = [
   	'dependencies/bootstrap/dist/css/*.min.*'
 ];
 
+var _HTML = [
+    'partials/**/*.html', 
+    'views/**/*.html'
+];
+
 //Solo las dependencias
 var _JAVASCRIPT = [
 	'dependencies/angular/*.min.*',
@@ -56,7 +61,7 @@ gulp.task('minify-js', function () {
 });
 
 gulp.task('minify-html', function () {
-    gulp.src('templates/**/*.html')
+    gulp.src(_HTML)
     .pipe(rename({suffix: '.min'}))
     .pipe(minifyHTML())
     .pipe(gulp.dest('dist/templates'));
@@ -99,7 +104,7 @@ gulp.task('watch', function() {
     // Cambios principales
     gulp.watch(_PROYECTOJS, ['minify-js']);
     gulp.watch(['assets/stylus/**/*.styl'], ['minify-css']);
-    gulp.watch(['templates/**/*.html'], ['minify-html']);
+    gulp.watch([_HTML], ['minify-html']);
 
     gulp.watch(_BASE,  ['copyBase']);
     gulp.watch(_IMGS,  ['copyImgs']);
