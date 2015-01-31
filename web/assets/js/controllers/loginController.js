@@ -3,9 +3,9 @@
     var logIn = angular.module('chanchito.logInController', []);
 
     logIn.controller('loginController', [ 
-    '$http', '$location', '$window', 'UserService', 'AuthenticationService',
-    function ($http, $location, $window, UserService, AuthenticationService) {
-        this.logIn = function (username, password) {
+    '$scope', '$http', '$location', '$window', 'UserService', 'AuthenticationService',
+    function ($scope, $http, $location, $window, UserService, AuthenticationService) {
+        $scope.logIn = function (username, password) {
             if (username !== undefined && password !== undefined) {
                 UserService.logIn(username, password).success(function(data) {
                     AuthenticationService.isAuthenticated  = true;
@@ -14,13 +14,13 @@
                     $location.path('/home');
                     console.log('entre');
                 }).error(function(status, data) {
-                    this.error = true;
+                    $scope.error = true;
                     console.log('error');
                 });
             }
         };
 
-       this.logOut = function (){
+       $scope.logOut = function (){
             if (AuthenticationService.isAuthenticated) {
                 AuthenticationService.isAuthenticated = false;
                 delete $window.sessionStorage.isAuthenticated;
