@@ -4,8 +4,60 @@
 		"selected_items":
 		[
 			[
+				"_",
+				"_HTML"
+			],
+			[
+				"D",
+				"DEBUG"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bo",
+				"colorBorde"
+			],
+			[
+				"co",
+				"colorBorde"
+			],
+			[
+				"col",
+				"colorFont"
+			],
+			[
+				"p",
+				"prueba"
+			],
+			[
+				"ur",
+				"urls"
+			],
+			[
+				"ad",
+				"admin"
+			],
+			[
+				"ob",
+				"objects"
+			],
+			[
+				"Fo",
+				"FoodGroup"
+			],
+			[
 				"se",
-				"self"
+				"serialize"
 			],
 			[
 				"mo",
@@ -26,10 +78,6 @@
 			[
 				"in",
 				"input	Tag"
-			],
-			[
-				"_",
-				"_JAVASCRIPT"
 			],
 			[
 				"d",
@@ -92,10 +140,6 @@
 				"request"
 			],
 			[
-				"ob",
-				"obj"
-			],
-			[
 				"for",
 				"for	for (…) {…} (Improved Native For-Loop)"
 			],
@@ -140,18 +184,18 @@
 	"buffers":
 	[
 		{
-			"file": "web/assets/js/chanchito.js",
+			"file": "api/requirements/local.txt",
 			"settings":
 			{
-				"buffer_size": 1046,
+				"buffer_size": 161,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "web/assets/js/controllers/movementsController.js",
+			"file": "web/assets/js/urls.js",
 			"settings":
 			{
-				"buffer_size": 802,
+				"buffer_size": 758,
 				"line_ending": "Unix"
 			}
 		}
@@ -255,50 +299,109 @@
 	[
 		"/home/vinicio/Documents/Proyectos/chanchito",
 		"/home/vinicio/Documents/Proyectos/chanchito/web",
-		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/controllers",
-		"/home/vinicio/Documents/Proyectos/chanchito/web/dist",
-		"/home/vinicio/Documents/Proyectos/chanchito/web/dist/assets",
-		"/home/vinicio/Documents/Proyectos/chanchito/web/dist/assets/js",
-		"/home/vinicio/Documents/Proyectos/chanchito/web/templates"
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js"
 	],
 	"file_history":
 	[
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/services/apiFactory.js",
+		"/home/vinicio/Documents/Proyectos/chanchito/api/requirements/test.txt",
 		"/home/vinicio/Documents/Proyectos/chanchito/web/gulpfile.js",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/controllers/loginController.js",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/urls.js",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/controllers/tabsController.js",
+		"/home/vinicio/Documents/Proyectos/chanchito/api/movements/models.py",
+		"/home/vinicio/Documents/Proyectos/chanchito/api/movements/admin.py",
+		"/home/vinicio/Dropbox/Linux/comandos ssh",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/index.html",
+		"/home/vinicio/Documents/Proyectos/chanchito/api/requirements/local.txt",
+		"/home/vinicio/Documents/Proyectos/chanchito/api/requirements/base.txt",
+		"/home/vinicio/Documents/Proyectos/chanchito/api/chanchito/settings.py",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/templates/working.html",
+		"/home/vinicio/Dropbox/Linux/comandos curl.txt",
+		"/home/vinicio/Dropbox/Linux/comandos descargar videos de internet",
+		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-api/nutrislots/nutrislots/settings/local.py",
+		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-api/nutrislots/usda/data.py",
+		"/home/vinicio/Dropbox/Linux/comandos Django.txt",
+		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_2130890.smil",
+		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_2130909.smil",
+		"/home/vinicio/Documents/Proyectos/nutrislots/flapi/usda/models.py",
+		"/home/vinicio/Documents/Proyectos/nutrislots/flapi/intake/models.py",
+		"/home/vinicio/Documents/Proyectos/nutrislots/flapi/forthlife/models.py",
+		"/home/vinicio/Documents/Proyectos/nutrislots/flapi/data/data_insert.py",
+		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_2130936.smil",
+		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1571115.smil",
+		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1572412.smil",
+		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1572404.smil",
+		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1572402.smil",
+		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-web/items/assets/stylus/panelizq.styl",
+		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-web/items/index.html",
+		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-api/nutrislots/usda/database/test/NUTR_DEF.txt",
+		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-api/nutrislots/usda/database/full/NUTR_DEF.txt",
+		"/home/vinicio/Dropbox/Linux/comandos git.txt",
+		"/home/vinicio/Dropbox/Linux/comandos configurar resoluciones de pantalla y varios monitores",
+		"/home/vinicio/Documents/Proyectos/nutrislots/flapi/data/test/curl_post_recipe_example",
+		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-api/nutrislots/usda/database/full/NUT_DATA.txt",
+		"/home/vinicio/Dropbox/Linux/instalar postgres",
+		"/home/vinicio/Dropbox/Linux/comandos create comando open mac en linux",
+		"/home/vinicio/Dropbox/Linux/comandos guard-livereload",
+		"/home/vinicio/Dropbox/Linux/Comandos pip",
+		"/home/vinicio/Dropbox/Linux/ver app instaladas",
+		"/home/vinicio/Dropbox/Linux/instalar sublime text desde repositorio",
+		"/home/vinicio/Dropbox/Linux/sublime",
+		"/home/vinicio/Dropbox/Linux/comandos tmux",
+		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1572393.smil",
+		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1565214.smil",
+		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-web/panel/assets/stylus/panelizq.styl",
+		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-web/panel/index.html",
+		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-web/panel/assets/js/panelIzq.js",
+		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-web/app/components/food/food-list.html",
+		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-web/app/components/food/tagController.js",
+		"/home/vinicio/Documents/Proyectos/inputTag/assets/stylus/inputTag.styl",
+		"/home/vinicio/Documents/Proyectos/inputTag/assets/js/tagController.js",
+		"/home/vinicio/Documents/Proyectos/chanchito/api/chanchito/urls.py",
+		"/home/vinicio/Documents/Proyectos/chanchito/api/api/urls.py",
+		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-api/nutrislots/api/urls.py",
+		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-api/nutrislots/api/views.py",
+		"/home/vinicio/Documents/Proyectos/nutrislots/ssh forthlife",
+		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-api/nutrislots/nutrislots/settings/base.py",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/factorys/apiFactory.js",
+		"/home/vinicio/Documents/Proyectos/chanchito/api/api/views.py",
+		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-api/nutrislots/usda/database/test/FD_GROUP.txt",
+		"/home/vinicio/Desktop/node/myslq.txt",
+		"/opt/lampp/etc/my.cnf",
+		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1572391.smil",
+		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1567106.smil",
+		"/opt/lampp/var/mysql/mysql.sock",
+		"/home/vinicio/Documents/Proyectos/chanchito/api/api/serializers.py",
+		"/home/vinicio/Dropbox/Linux/Additional Drivers",
+		"/home/vinicio/Dropbox/Linux/bajar cualquier video de internet",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/chanchito.js",
+		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/controllers/movementsController.js",
 		"/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-web/dist/app.js",
 		"/home/vinicio/Dropbox/Linux/dar permisos a carpeta htdocs de lampp",
-		"/home/vinicio/Dropbox/Linux/comandos ssh",
 		"/home/vinicio/Documents/Proyectos/chanchito/web/templates/deposit.html",
-		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/urls.js",
-		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/controllers/movementsController.js",
 		"/home/vinicio/Documents/Proyectos/chanchito/web/templates/home.html",
-		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/controllers/tabsController.js",
-		"/home/vinicio/Dropbox/Linux/comandos descargar videos de internet",
 		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/controllers/profileController.js",
-		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/controllers/loginController.js",
 		"/home/vinicio/Documents/Proyectos/chanchito/web/templates/login.html",
 		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/factorys/loginFactory.js",
-		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/factorys/apiFactory.js",
 		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/css/login.css",
 		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/stylus/login.styl",
 		"/home/vinicio/Documents/Proyectos/inputTag/gulpfile.js",
 		"/home/vinicio/Documents/Proyectos/chanchito/web/package.json",
-		"/home/vinicio/Documents/Proyectos/chanchito/web/index.html",
 		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1567090.smil",
 		"/home/vinicio/Documents/Proyectos/chanchito/web/assets/js/controllers/tagsController.js",
-		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1565214.smil",
 		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1565227.smil",
 		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1562329.smil",
 		"/home/vinicio/Desktop/Curso_Profesional_de_Backend_1562322.smil",
 		"/home/vinicio/Documents/Mejorandola/Curso Profesional de Backend/01 - Introducción a Python y Django/01 - youtube/Qué significa ser un Backend",
 		"/home/vinicio/Dropbox/Linux/instalar wifi",
-		"/home/vinicio/Dropbox/Linux/comandos git.txt",
 		"/home/vinicio/Dropbox/Linux/comandos leer archivo desde terminal",
 		"/home/vinicio/Dropbox/Linux/instalar blender",
 		"/opt/lampp/htdocs/chanchito/web/README.md",
 		"/opt/lampp/htdocs/chanchito/README.md",
 		"/opt/lampp/htdocs/chanchito/.htaccess",
 		"/opt/lampp/htdocs/chanchito/web/index.html",
-		"/home/vinicio/Dropbox/Linux/comandos guard-livereload",
 		"/opt/lampp/htdocs/chanchito/web/Guardfile",
 		"/opt/lampp/htdocs/chanchito/web/gulpfile.js",
 		"/home/vinicio/Dropbox/Trabajando/nutrislots-web/gulpfile.js",
@@ -316,7 +419,6 @@
 		"/home/vinicio/Dropbox/Trabajando/nutrislots-web/bower.json",
 		"/home/vinicio/Desktop/drawing.svg",
 		"/home/vinicio/Dropbox/Linux/camara",
-		"/home/vinicio/Dropbox/Linux/comandos tmux",
 		"/home/vinicio/Dropbox/Linux/comandos ver arbol de carpetas terminal",
 		"/opt/lampp/htdocs/chanchito/web/eliminame",
 		"/opt/lampp/htdocs/chanchito/web/templates/movements.html",
@@ -329,68 +431,7 @@
 		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/html/context_variable.sublime-snippet",
 		"/home/vinicio/.config/sublime-text-2/Packages/Color Highlighter/Main.sublime-menu",
 		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/Python (Django).sublime-completions",
-		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/html/autoescape.sublime-snippet",
-		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/html/comment.sublime-snippet",
-		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/html/blocktrans.sublime-snippet",
-		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/html/block.sublime-snippet",
-		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/html/super.sublime-snippet",
-		"/home/vinicio/.config/sublime-text-2/Packages/HTML/html.sublime-snippet",
-		"/home/vinicio/.config/sublime-text-2/Packages/HTML/HTML.sublime-completions",
-		"/home/vinicio/.config/sublime-text-2/Packages/HTML/html_completions.py",
-		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/html/templatetag.sublime-snippet",
-		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/Views/TemplateView.sublime-snippet",
-		"/home/vinicio/.config/sublime-text-2/Packages/Laravel Blade Highlighter/test.blade",
-		"/home/vinicio/.config/sublime-text-2/Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage.cache",
-		"/home/vinicio/.config/sublime-text-2/Packages/Laravel Blade Highlighter/package-metadata.json",
-		"/home/vinicio/.config/sublime-text-2/Settings/Session.sublime_session",
-		"/opt/lampp/htdocs/chanchito/web/dfsdfs",
-		"/home/vinicio/.config/sublime-text-2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
-		"/home/vinicio/.config/sublime-text-2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
-		"/home/vinicio/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
-		"/home/vinicio/.config/sublime-text-2/Packages/SideBarEnhancements/Default (Linux).sublime-keymap",
-		"/home/vinicio/.config/sublime-text-2/Packages/User/Side Bar.sublime-settings",
-		"/opt/lampp/htdocs/chanchito/pruebe.fsd",
-		"/home/vinicio/Dropbox/Linux/Sublime text 2 recursos.txt",
-		"/home/vinicio/Desktop/chanchito/README.md",
-		"/home/vinicio/.config/sublime-text-2/Packages/Laravel Blade Highlighter/packages.json",
-		"/home/vinicio/.config/sublime-text-2/Packages/Laravel Blade Highlighter/messages.json",
-		"/home/vinicio/Dropbox/Trabajando/formatcom/app/views/login.blade.php",
-		"/opt/lampp/htdocs/chanchito/web/templates/login.html",
-		"/home/vinicio/.config/sublime-text-2/Packages/AngularJS/AngularJS-js-completions.sublime-settings",
-		"/home/vinicio/.config/sublime-text-2/Packages/AngularJS/AngularJS-completions.sublime-settings",
-		"/home/vinicio/.config/sublime-text-2/Packages/AngularJS/AngularJS-sublime-package.sublime-settings",
-		"/home/vinicio/Dropbox/Trabajando/nutrislots-web/app/templates/working.html",
-		"/home/vinicio/Dropbox/Trabajando/nutrislots-web/app/index.html",
-		"/home/vinicio/Dropbox/Trabajando/nutrislots-web/app/templates/contact.html",
-		"/opt/lampp/htdocs/chanchito/web/templates/deposit.html",
-		"/opt/lampp/htdocs/chanchito/web/templates/withdraw.html",
-		"/opt/lampp/htdocs/chanchito/web/assets/js/controllers/movementsController.js",
-		"/opt/lampp/htdocs/chanchito/web/assets/js/controllers/movementController.js",
-		"/opt/lampp/htdocs/chanchito/web/assets/css/login.css",
-		"/opt/lampp/htdocs/chanchito/web/assets/js/controllers/profileController.js",
-		"/opt/lampp/htdocs/chanchito/web/assets/js/controllers/loginController.js",
-		"/opt/lampp/htdocs/chanchito/.gitignore",
-		"/opt/lampp/htdocs/chanchito/web/assets/js/factorys/loginFactory.js",
-		"/opt/lampp/htdocs/chanchito/web/templates/working.html",
-		"/opt/lampp/htdocs/chanchito/web/assets/js/factorys/apiFactory.js",
-		"/opt/lampp/htdocs/chanchito/web/assets/js/controladores/adminctrluser.js",
-		"/home/vinicio/Dropbox/Linux/comandos curl.txt",
-		"/opt/lampp/htdocs/chanchito/web/bower.json",
-		"/opt/lampp/htdocs/chanchito/web/dependencies/angular-bootstrap/ui-bootstrap-tpls.js",
-		"/opt/lampp/htdocs/chanchito/web/assets/js/factorys.js",
-		"/opt/lampp/htdocs/chanchito/web/dist/index.html",
-		"/opt/lampp/htdocs/chanchito/api/api/views.py",
-		"/opt/lampp/htdocs/chanchito/api/api/urls.py",
-		"/opt/lampp/htdocs/chanchito/web/dist/assets/js/main.min.js",
-		"/opt/lampp/htdocs/chanchito/web/min/chanchito.js",
-		"/opt/lampp/htdocs/chanchito/web/dist/assets/js/main.js",
-		"/opt/lampp/htdocs/chanchito/api/requirements/base.txt",
-		"/opt/lampp/etc/extra/httpd-vhosts.conf",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/package.json",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/gulpfile.js",
-		"/home/vinicio/Dropbox/Trabajando/chanchito/web/README.md",
-		"/opt/lampp/htdocs/chanchito/web/dist/main.min.js",
-		"/opt/lampp/htdocs/chanchito/web/dist/todo.js"
+		"/home/vinicio/.config/sublime-text-2/Backup/20141118103715/Djaneiro/html/autoescape.sublime-snippet"
 	],
 	"find":
 	{
@@ -415,6 +456,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"templates",
+			"Movement",
+			"MovementAdmin",
+			"Movement",
+			"funcionabilidad",
+			"('/')[-",
+			"movements",
+			"fileLanguaL",
+			"subl",
+			"NUT_DATA",
+			"DERIV_CD",
+			"NUTR_DEF",
+			"div",
+			"select",
+			"div",
+			"container",
+			"354264",
+			"categorias",
+			"categories",
+			"foodgroup",
+			"mysqld",
+			"mysqld.sock",
 			"success",
 			"successDeposit",
 			"this",
@@ -520,29 +583,7 @@
 			"data-",
 			"SourceCode",
 			"food",
-			"description",
-			"text",
-			"image_url",
-			"serving_size",
-			"cook_dependency",
-			"foods",
-			"FoodViewSet",
-			"RecipeStepViewSet",
-			"FoodViewSet",
-			"RecipeViewSet",
-			"FoodViewSet",
-			"e",
-			"RecipeTagViewSet",
-			"FoodViewSet",
-			"RecipeIngredientViewSet",
-			"FoodViewSet",
-			"CookbookViewSet",
-			"RecipeTag",
-			"RecipeTagSerializer",
-			"RecipeSerializer",
-			"RecipeViewSet",
-			"RecipeSerializer",
-			"RecipeStep"
+			"description"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -568,19 +609,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "web/assets/js/chanchito.js",
+					"file": "api/requirements/local.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1046,
+						"buffer_size": 161,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								257,
-								257
+								160,
+								160
 							]
 						],
 						"settings":
@@ -588,65 +629,64 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -657,19 +697,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "web/assets/js/controllers/movementsController.js",
+					"file": "web/assets/js/urls.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 802,
+						"buffer_size": 758,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								286,
-								286
+								436,
+								436
 							]
 						],
 						"settings":
@@ -677,16 +717,11 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -707,35 +742,41 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -749,7 +790,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -786,10 +827,14 @@
 	{
 		"height": 0.0
 	},
+	"output.unsaved_changes":
+	{
+		"height": 124.0
+	},
 	"project": "chanchito.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -828,7 +873,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 280.0,
+	"side_bar_width": 222.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -1,22 +1,22 @@
 <div class="container">
-	<h3 data-ng-controller="profileController as profileCtrl">
-		Welcome <strong>{{profileCtrl.user.username}}</strong>
+	<h3 data-ng-controller="profileController">
+		Welcome <strong>{{user.username}}</strong>
 	</h3>
-	<div data-ng-controller="loginController as logOutCtrl">
-		<a class="btn btn-danger pull-right" href="#/home" data-ng-click="logOutCtrl.logOut()">
+	<div data-ng-controller="loginController">
+		<a class="btn btn-danger pull-right" href="#/home" data-ng-click="logOut()">
 			Log out
 		</a>
 	</div>
-	<div data-ng-controller="tabsController as tabsCtrl">
+	<div data-ng-controller="tabsController">
 		<ul class="nav nav-tabs">
-			<li data-ng-repeat="tab in tabsCtrl.tabs"
-				data-ng-class="{active:tabsCtrl.isActiveTab(tab.url)}" >
-	                <a href="#/home" data-ng-click="tabsCtrl.onClickTab(tab)" >
+			<li data-ng-repeat="tab in tabs"
+				data-ng-class="{active:isActiveTab(tab.url)}" >
+	                <a href="#/home" data-ng-click="onClickTab(tab)" >
 	                	{{tab.title}}
 	                </a>
 	            </li>
 		</ul>
 	
-		<div data-ng-include data-src="tabsCtrl.currentTab"></div>
+		<div data-ng-include data-src="currentTab"></div>
 	</div>
 </div>

@@ -4,6 +4,14 @@
 		{
 			"follow_symlinks": true,
 			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-api"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/home/vinicio/Documents/Proyectos/nutrislots/nutrislots-web"
 		}
 	]
 }

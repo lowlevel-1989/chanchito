@@ -2,8 +2,8 @@
     
     var tab = angular.module('chanchito.tabsController', []);
 
-    tab.controller('tabsController', function () {
-		this.tabs = [
+    tab.controller('tabsController', ['$scope', function ($scope) {
+		$scope.tabs = [
 			{
 				"title": "Home",
 				"url"  : ""
@@ -22,15 +22,15 @@
 			}
 		];
 
-		this.currentTab = '';
+		$scope.currentTab = '';
 
-	    this.onClickTab = function (tab) {
-	        this.currentTab = tab.url;
+	    $scope.onClickTab = function (tab) {
+	        $scope.currentTab = tab.url;
 	    }
 	    
-	    this.isActiveTab = function(tabUrl) {
-	        return tabUrl == this.currentTab;
+	    $scope.isActiveTab = function(tabUrl) {
+	        return tabUrl == $scope.currentTab;
 	    }
-	});
+	}]);
 
 })();

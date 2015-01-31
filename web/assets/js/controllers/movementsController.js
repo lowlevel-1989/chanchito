@@ -2,17 +2,15 @@
 
     var movements = angular.module('chanchito.movementsController', []);
 
-    movements.controller('movementsController', ['$http', 'chanchitoApi',
-    function ($http, chanchitoApi) {
-		self = this;
+    movements.controller('movementsController', ['$scope', '$http', 'chanchitoApi',
+    function ($scope, $http, chanchitoApi) {
+		$scope.serializerDeposit = {};
 
-		this.serializerDeposit = {};
-
-		this.successDeposit = false;
+		$scope.successDeposit = false;
 
 		this.changeDeposit = function (){
-			if (this.successDeposit)
-				this.successDeposit = false;
+			if ($scope.successDeposit)
+				$scope.successDeposit = false;
 		}
 
 		this.deposit = function (){
@@ -24,8 +22,8 @@
 
 			request.success(
 			    function(data) {
-			    	self.successDeposit = true;
-					self.serializerDeposit = {};
+			    	$scope.successDeposit = true;
+					$scope.serializerDeposit = {};
 					console.log(data);
 			    }
 			);

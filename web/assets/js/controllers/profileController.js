@@ -2,9 +2,8 @@
 
     var profile = angular.module('chanchito.profileController', []);
 
-    profile.controller('profileController', ['$http', 'chanchitoApi', 
-    function ($http, chanchitoApi) {
-        self = this;
+    profile.controller('profileController', ['$scope', '$http', 'chanchitoApi', 
+    function ($scope, $http, chanchitoApi) {
         var request = $http({
             method: 'get',
             url: chanchitoApi.host+'token/user/'
@@ -12,7 +11,7 @@
 
         request.success(
             function(data) {
-                self.user = data;
+                $scope.user = data;
             }
         );
 

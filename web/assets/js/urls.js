@@ -9,7 +9,7 @@
         })
         .when('/login', {
             templateUrl: 'web/dist/templates/login.min.html',
-            controller: 'loginController as logInCtrl',
+            controller: 'loginController',
             access: { requiredLogin: false }
         })
         .when('/home', {
